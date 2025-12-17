@@ -1,0 +1,263 @@
+.risk-subgrade-container {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    border: 1px solid #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.controls-section {
+    background-color: #222;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.simple-controls-row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    min-height: 80px;
+}
+
+.simple-control-group {
+    flex: 0 0 auto;
+    text-align: center;
+    min-width: 160px;
+}
+
+.simple-date-picker .DateRangePickerInput {
+    background-color: transparent !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.simple-date-picker .DateInput {
+    background-color: transparent !important;
+    width: 120px !important;
+}
+
+.simple-date-picker .DateInput_input {
+    background-color: #2a2a2a !important;
+    color: white !important;
+    border: 1px solid #444 !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    width: 100% !important;
+    text-align: center !important;
+    height: 34px !important;
+    line-height: 34px !important;
+}
+
+.simple-date-picker .DateRangePickerInput_arrow {
+    color: #666 !important;
+    padding: 0 8px !important;
+}
+
+.simple-date-picker .DateInput_input:focus {
+    border-color: #1B5E20 !important;
+    outline: none !important;
+}
+
+.simple-grade-dropdown {
+    width: 100% !important;
+}
+
+.simple-grade-dropdown .Select-control {
+    background-color: #2a2a2a !important;
+    border: 1px solid #444 !important;
+    border-radius: 6px !important;
+    height: 34px !important;
+    min-height: 34px !important;
+    transition: all 0.3s ease;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.simple-grade-dropdown .Select-value-label {
+    color: white !important;
+    font-size: 13px !important;
+    text-align: center !important;
+    line-height: 34px !important;
+}
+
+.simple-grade-dropdown .Select-placeholder {
+    color: #888 !important;
+    font-size: 13px !important;
+    text-align: center !important;
+    line-height: 34px !important;
+}
+
+.simple-grade-dropdown .Select-menu-outer {
+    background-color: #2a2a2a !important;
+    color: white !important;
+    border: 1px solid #444 !important;
+    border-radius: 6px !important;
+    margin-top: 4px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+    z-index: 1000 !important;
+}
+
+.simple-grade-dropdown .Select-option {
+    background-color: #2a2a2a !important;
+    color: white !important;
+    font-size: 13px !important;
+    text-align: center !important;
+    padding: 8px 12px !important;
+}
+
+.simple-grade-dropdown .Select-option.is-focused {
+    background-color: #333 !important;
+}
+
+.simple-grade-dropdown .Select-option.is-selected {
+    background-color: #1B5E20 !important;
+}
+
+.simple-grade-dropdown .Select-input {
+    height: 32px !important;
+}
+
+.simple-toggle-switch {
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simple-toggle-switch .switch {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.simple-toggle-switch label {
+    color: #aaa !important;
+    font-size: 0.85rem !important;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.summary-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.summary-cards-row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+}
+
+.summary-card {
+    background-color: #222;
+    border-radius: 6px;
+    border: 1px solid #333;
+    text-align: center;
+    transition: all 0.2s ease;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.summary-card:hover {
+    transform: translateY(-1px);
+    border-color: #1B5E20;
+}
+
+.summary-card.active {
+    border-color: #1B5E20;
+    background-color: rgba(27, 94, 32, 0.08);
+}
+
+.grade-label {
+    color: #aaa;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.amount-value {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+    font-family: 'Courier New', monospace;
+}
+
+.count-value {
+    color: #1B5E20;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.chart-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.chart-header {
+    margin-bottom: 15px;
+}
+
+.chart-title {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.graph-container {
+    background-color: #222;
+    border-radius: 8px;
+    border: 1px solid #333;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.risk-chart {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.info-section {
+    background-color: #222;
+    border-radius: 8px;
+    border: 1px solid #333;
+    border-left: 3px solid #1B5E20;
+}
+
+.info-text {
+    margin: 0;
+}
+
+.info-text p {
+    color: #aaa;
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.4;
+}
+
+.info-text p + p {
+    margin-top: 6px;
+}

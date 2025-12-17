@@ -1,0 +1,128 @@
+.loan-chart-layout {
+    background-color: #2b2b2b;
+    border-radius: 12px;
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-tag-text {
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.chart-filter-section {
+    background-color: #1a1a1a;
+    padding: 15px 20px;
+    border-bottom: 1px solid #333;
+}
+
+.filter-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.filter-item {
+    flex: 1;
+    min-width: 250px;
+}
+
+.chart-grade-dropdown {
+    min-width: 150px;
+}
+
+.chart-grade-dropdown .Select-control {
+    background-color: #222 !important;
+    border: 1px solid #444 !important;
+    border-radius: 8px !important;
+    min-height: 40px;
+    transition: all 0.3s ease;
+}
+
+.chart-grade-dropdown .Select-value-label {
+    color: white !important;
+    font-size: 14px;
+}
+
+.chart-grade-dropdown .Select-menu-outer {
+    background-color: #222 !important;
+    border: 1px solid #444 !important;
+    color: white;
+    border-radius: 8px !important;
+    margin-top: 2px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.filter-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.filter-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    border-top: 1px solid #333;
+}
+
+.status-text {
+    color: #888;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.loan-chart-container {
+    flex: 1;
+    min-height: 0;
+    background-color: #0a0a0a;
+}
+
+.chart-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DateRangePicker {
+    background-color: transparent !important;
+}
+
+.DateInput,
+.DateRangePickerInput {
+    background-color: transparent !important;
+}
+
+.DateInput_input {
+    padding: 8px 12px !important;
+    background-color: black !important;
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    width: 150px !important;
+}
+
+.DateInput_input:focus {
+    border-color: #666 !important;
+    outline: none !important;
+}
+
+.DateInput_input::placeholder {
+    color: #aaa !important;
+}
+
+.DateRangePickerInput_arrow {
+    color: white !important;
+    padding: 0 10px;
+}
+
+.CalendarDay__default {
+    color: white !important;
+    background: rgb(26, 103, 204) !important;
+    border: 1px solid #222 !important;
+}
