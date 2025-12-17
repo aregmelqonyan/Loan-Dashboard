@@ -1,5 +1,4 @@
-https://github.com/aregmelqonyan/Loan-Dashboard
-# Project Name
+# Loan Dashboard
 
 This is a Dash-based dashboard project.
 
