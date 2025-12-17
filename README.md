@@ -5,8 +5,8 @@ This is a Dash-based dashboard project.
 ## Clone the repository
 
 ```bash
-git clone <https://github.com/aregmelqonyan/Loan-Dashboard>
-cd <Loan-Dashboard>
+git clone https://github.com/aregmelqonyan/Loan-Dashboard
+cd Loan-Dashboard
 
 # Windows
 python -m venv venv
